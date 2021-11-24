@@ -1,0 +1,13 @@
+.moodSelector {
+	background-color: #F00;
+	cursor: pointer;
+	padding: 5px;
+	
+	:hover {
+		background-color: #A00;
+	}
+
+	.active {
+		background-color: green;
+	}
+}

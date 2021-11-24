@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import BackendRequest from '../../Managers/BackendRequest'
 import { MOOD_ARRAY } from '../../Managers/MoodManager'
 import { logout } from '../../auth/auth'
+import "./Mood.scss"
 
 export default function Mood() {
 	const navigate = useNavigate();
