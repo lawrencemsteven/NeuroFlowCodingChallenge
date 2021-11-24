@@ -28,13 +28,12 @@ with app.app_context():
 
 @app.errorhandler(Exception)
 def handle_exception(e):
-	print("Error")
 	return index()
 
-@app.errorhandler(PraetorianError)
-def praetorian_error(e):
-	print("Praetorian Error")
-	return index()
+#@app.errorhandler(PraetorianError)
+#def praetorian_error(e):
+#	print("Praetorian Error")
+#	return index()
 
 @app.route("/")
 def index():
